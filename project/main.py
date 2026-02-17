@@ -16,5 +16,5 @@ window.geometry("250x200")
 count = 0
 
 
-tk.Button(window, text="Кликни меня!", command=click, 
+tk.Button(window, text="КЛИК!", command=click, 
           bg="lightblue", font=("Arial", 14)).pack(pady=20)
