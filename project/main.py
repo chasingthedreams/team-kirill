@@ -12,6 +12,7 @@ def reset():
 window = tk.Tk()
 window.title("Счетчик кликов")
 window.geometry("250x200")
+window.resizable(False,False)
 
 count = 0
 
