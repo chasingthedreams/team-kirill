@@ -15,7 +15,8 @@ window.geometry("250x200")
 window.resizable(False,False)
 
 count = 0
-
+label = tk.Label(window, text="Кликов: 0", font=("Arial", 20))
+label.pack(pady=30)
 btn_click = tk.Button(window, text="КЛИК!", command=click, 
           bg="lightblue", font=("Arial", 14)).pack(pady=20)
 
