@@ -16,7 +16,7 @@ window.resizable(False,False)
 
 count = 0
 
-tk.Button(window, text="КЛИК!", command=click, 
+btn_click = tk.Button(window, text="КЛИК!", command=click, 
           bg="lightblue", font=("Arial", 14)).pack(pady=20)
 
 btn_reset= tk.Button(window, text="Сброс",
