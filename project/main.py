@@ -18,3 +18,8 @@ count = 0
 
 tk.Button(window, text="КЛИК!", command=click, 
           bg="lightblue", font=("Arial", 14)).pack(pady=20)
+
+btn_reset= tk.Button(window, text="Сброс",
+                     command = reset, width=10, height=1, font=("Arial", 14))
+btn_reset.pack(pady=5)
+window.mainloop()
